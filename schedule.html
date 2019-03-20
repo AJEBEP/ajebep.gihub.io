@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Schedule Styles Conference</title>
+    <link rel="stylesheet" href="main.css">
+      <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:100,300,400">
+  </head>
+
+  <body>
+
+    <!-- Header -->
+
+        <header class="primary-header container group">
+
+
+        <h1 class="logo">
+          <a href="index.html">Jeune de <br> l'Annee</a>
+        </h1>
+
+        <h3 class="tagline">August 24&ndash;26th &mdash; Chicago, IL</h3>
+
+
+      <nav class="nav primary-nav">
+        <ul>
+         <li><a href="index.html" target="_blank">Home</a></li><!--
+      --><li><a href="speakers.html"target="_blank">Speakers</a></li><!--
+      --><li><a href="schedule.html" target="_blank">Schedule</a></li><!--
+      --><li><a href="venue.html"target="_blank">Venue</a></li><!--
+      --><li><a href="register.html" target="_blank">Register</a></li>
+        </ul>
+       </nav>
+
+    </header>
+
+    <!-- Lead -->
+
+    <section class="row-alt">
+      <div class="lead container">
+
+
+
+        <h1>Schedule</h1>
+
+        <p>We&#8217;re happy to welcome over twenty speakers to present on the industry&#8217;s latest technologies. Prepare for an inspiration extravaganza.</p>
+
+      </div>
+    </section>
+    <!-- Main content -->
+
+  <!-- Main content -->
+
+<section class="row">
+ <div class="container">
+
+
+   <table>
+      <caption>Design and Front-End Development Books</caption>
+    <thead>
+     <tr>
+      <th scope="col">ID</th>
+       <th scope="col">Item</th>
+       <th scope="col">Availability</th>
+       <th scope="col">Qty</th>
+       <th scope="col">Price</th>
+     </tr>
+   </thead>
+   <tbody>
+     <tr>
+       <td>A</td>
+       <td><strong class="book-title">Don&#8217;t Make Me Think,</strong> by Steve Krug</td>
+       <td>In Stock</td>
+       <td>1</td>
+       <td>$30.02</td>
+     </tr>
+   </tbody>
+     <tr>
+       <td>B</td>
+       <td><strong class="book-title">A Project Guide to UX Design</strong> by Russ Unger &#38; Carolyn Chandler</td>
+       <td>In Stock</td>
+       <td>2</td>
+       <td>$52.94 ($26.47 &#215; 2)</td>
+     </tr>
+     <tr>
+       <td>C</td>
+       <td><strong class="book-title">Introducing HTML5</strong> by Bruce Lawson &#38; Remy Sharp</td>
+       <td>Out of Stock</td>
+       <td>1</td>
+       <td>$22.23</td>
+     </tr>
+     <tr>
+       <td>D</td>
+       <td><strong class="book-title">Bulletproof Web Design</strong> by Dan Cederholm</td>
+       <td>In Stock</td>
+       <td>1</td>
+       <td>$30.17</td>
+     </tr>
+   </tbody>
+   <tfoot>
+   <tr>
+     <td>Subtotal</td>
+     <td></td>
+     <td></td>
+     <td></td>
+     <td>$135.36</td>
+   </tr>
+   <tr>
+     <td>Tax</td>
+     <td></td>
+     <td></td>
+     <td></td>
+     <td>$13.54</td>
+   </tr>
+   <tr>
+     <td>Total</td>
+     <td></td>
+     <td></td>
+     <td></td>
+     <td>$148.90</td>
+   </tr>
+ </tfoot>
+   </table>
+
+   <br>
+
+   <!--We use colspan and rowspan to merge cells-->
+   <table>
+    <caption></strong>Design and Front-End Development Books</strong></caption>
+    <thead>
+      <tr>
+        <th scope="col">ID</th>
+        <th scope="col" colspan="2">Item</th>
+        <th scope="col">Qty</th>
+        <th scope="col">Price</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>A</td>
+        <td> <strong class="book-title">Don&#8217;t Make Me Think</strong>
+        <span class="text-offset"> by Steve Krug</td>
+        <td class="item-stock">In Stock</td>
+        <td class="item-qty">1</td>
+        <td class="item-price">$30.02</td>
+      </tr>
+      <tr>
+        <td>B</td>
+        <td> <strong class="book-title">A Project Guide to UX Design </strong>
+        <span class="text-offset">by Russ Unger &#38; Carolyn Chandler</td>
+        <td class="item-stock">In Stock</td>
+        <td class="item-qty">2</td>
+        <td class="item-price">$52.94<span class="text-offset item-multiple"> ($26.47 &#215; 2)</span></td>
+      </tr>
+      <tr>
+        <td>C</td>
+        <td><strong class="book-title">Introducing HTML5</strong>
+        <span class="text-offset">by Bruce Lawson &#38; Remy Sharp</td>
+        <td class="item-stock">Out of Stock</td>
+        <td class="item-qty">1</td>
+        <td class="item-price">$22.23</td>
+      </tr>
+      <tr>
+        <td>D</td>
+        <!-- class=book-title is added the decifer the title from the author -->
+        <td><strong class="book-title">Bulletproof Web Design</strong>
+          <span class="text-offset">by Dan Cederholm</td>
+        <td class="item-stock">In Stock</td>
+        <td class="item-qty">1</td>
+        <td class="item-price">$30.17</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr class="text-offset">
+        <td colspan="4">Subtotal</td>
+        <td>$135.36</td>
+      </tr>
+      <tr class="text-offset">
+        <td colspan="4">Tax</td>
+        <td>$13.54</td>
+      </tr>
+      <tr>
+        <td colspan="4">Total</td>
+        <td>$148.90</td>
+      </tr>
+    </tfoot>
+  </table>
+<br>
+<br>
+  <table>
+  <thead>
+    <tr>
+      <th scope="col" colspan="2">Item</th>
+      <th scope="col">Qty</th>
+      <th scope="col">Price</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <strong class="book-title">Don&#8217;t Make Me Think</strong> by Steve Krug
+      </td>
+      <td class="item-stock">In Stock</td>
+      <td class="item-qty">1</td>
+      <td class="item-price">$30.02</td>
+    </tr>
+    <tr>
+      <td>
+        <strong class="book-title">A Project Guide to UX Design</strong> by Russ Unger &#38; Carolyn Chandler
+      </td>
+      <td class="item-stock">In Stock</td>
+      <td class="item-qty">2</td>
+      <td class="item-price">$52.94 <span class="item-multiple">$26.47 &#215; 2</span></td>
+    </tr>
+    <tr>
+      <td>
+        <strong class="book-title">Introducing HTML5</strong> by Bruce Lawson &#38; Remy Sharp
+      </td>
+      <td class="item-stock">Out of Stock</td>
+      <td class="item-qty">1</td>
+      <td class="item-price">$22.23</td>
+    </tr>
+    <tr>
+      <td>
+        <strong class="book-title">Bulletproof Web Design</strong> by Dan Cederholm
+      </td>
+      <td class="item-stock">In Stock</td>
+      <td class="item-qty">1</td>
+      <td class="item-price">$30.17</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td colspan="3">Subtotal</td>
+      <td>$135.36</td>
+    </tr>
+    <tr>
+      <td colspan="3">Tax</td>
+      <td>$13.54</td>
+    </tr>
+    <tr>
+      <td colspan="3">Total</td>
+      <td>$148.90</td>
+    </tr>
+  </tfoot>
+</table>
+
+ </div>
+   </section>
+
+    <!-- Footer -->
+    <footer class="primary-footer container group">
+    <h1 class"Logo">Jeune de l'Annee</h1>
+      <small>&copy; Styles Conference</small>
+
+      <nav class="nav primary-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li><!--
+          --><li><a href="speakers.html">Speakers</a></li><!--
+          --><li><a href="schedule.html">Schedule</a></li><!--
+          --><li><a href="venue.html">Venue</a></li><!--
+          --><li><a href="register.html">Register</a></li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
+</html>
